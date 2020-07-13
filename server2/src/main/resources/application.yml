@@ -1,0 +1,13 @@
+server:
+  port: 8888
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://hatakiB.com:8887/eureka/
+  instance:
+    hostname: hatakiA.com
+spring:
+  application:
+    name: EurekaServer

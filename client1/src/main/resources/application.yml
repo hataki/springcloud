@@ -9,10 +9,8 @@ eureka:
     #设置服务注册中心的URL，用于client和server端交流
     service-url:
       defaultZone: http://hatakiA.com:8888/eureka/
-  instance:
-    #hostname是标识主机，appname是标识分组的，等同于spring-application-name
-    hostname: hatakiB.com
+
 spring:
   application:
-    name: EurekaServer
+    name: EurekaClient
 

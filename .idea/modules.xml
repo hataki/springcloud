@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/client1/client1.iml" filepath="$PROJECT_DIR$/client1/client1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client1/client1.iml" filepath="$PROJECT_DIR$/client1/client1.iml" />
       <module fileurl="file://$PROJECT_DIR$/server1/server1.iml" filepath="$PROJECT_DIR$/server1/server1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server1/server1.iml" filepath="$PROJECT_DIR$/server1/server1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server2/server2.iml" filepath="$PROJECT_DIR$/server2/server2.iml" />
       <module fileurl="file://$PROJECT_DIR$/server2/server2.iml" filepath="$PROJECT_DIR$/server2/server2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springcloud.iml" filepath="$PROJECT_DIR$/.idea/springcloud.iml" />
     </modules>

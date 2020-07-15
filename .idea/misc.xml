@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/server1/pom.xml" />
         <option value="$PROJECT_DIR$/server2/pom.xml" />
         <option value="$PROJECT_DIR$/client1/pom.xml" />
+        <option value="$PROJECT_DIR$/client2/pom.xml" />
       </list>
     </option>
   </component>
@@ -79,6 +80,9 @@
         </expanded-state>
       </profile-state>
     </entry>
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/client2/src/main/resources/application.properties" />
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

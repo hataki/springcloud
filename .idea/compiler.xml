@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="client1" />
+        <module name="client2" />
         <module name="server1" />
         <module name="server2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="client1" target="1.8" />
+      <module name="client2" target="1.8" />
       <module name="server1" target="1.8" />
       <module name="server2" target="1.8" />
       <module name="seven" target="1.8" />
@@ -23,6 +25,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="client1" options="-parameters" />
+      <module name="client2" options="-parameters" />
       <module name="server1" options="-parameters" />
       <module name="server2" options="-parameters" />
       <module name="seven" options="-parameters" />

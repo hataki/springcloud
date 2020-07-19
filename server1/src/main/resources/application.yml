@@ -12,6 +12,16 @@ eureka:
   instance:
     #hostname是标识主机，appname是标识分组的，等同于spring-application-name
     hostname: hatakiB.com
+    #ip注册，将自己的ip注册到EurekaServer上；不配置or false，表示将操作系统的hostname注册到server上面
+#    prefer-ip-address: true
+    #指定ip 填写实际能访问到的ip
+#    ip-address: 127.0.0.1
+  server:
+    #设置清理时间
+#    eviction-interval-timer-in-ms: 3000
+  #关闭自我保护机制 -- false
+    enable-self-preservation: true
+
 spring:
   application:
     name: EurekaServer

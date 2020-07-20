@@ -4,6 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/client1/client1.iml" filepath="$PROJECT_DIR$/client1/client1.iml" />
       <module fileurl="file://$PROJECT_DIR$/client2/client2.iml" filepath="$PROJECT_DIR$/client2/client2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comsumer1/comsumer1.iml" filepath="$PROJECT_DIR$/comsumer1/comsumer1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/comsumer2/comsumer2.iml" filepath="$PROJECT_DIR$/comsumer2/comsumer2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider1/provider1.iml" filepath="$PROJECT_DIR$/provider1/provider1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/provider2/provider2.iml" filepath="$PROJECT_DIR$/provider2/provider2.iml" />
       <module fileurl="file://$PROJECT_DIR$/server1/server1.iml" filepath="$PROJECT_DIR$/server1/server1.iml" />
       <module fileurl="file://$PROJECT_DIR$/server2/server2.iml" filepath="$PROJECT_DIR$/server2/server2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springcloud.iml" filepath="$PROJECT_DIR$/.idea/springcloud.iml" />

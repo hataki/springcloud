@@ -18,7 +18,7 @@ public class Client1Application {
 
     @Bean
     @LoadBalanced
-    public RestTemplate getRestTemplate(){
+    RestTemplate getRestTemplate(){
         return new RestTemplate();
     }
 

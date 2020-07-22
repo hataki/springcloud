@@ -22,4 +22,17 @@ public class Client1Application {
         return new RestTemplate();
     }
 
+
+    /**
+     * 添加拦截器
+     * @return
+     */
+//    @Bean
+//    @LoadBalanced
+//    RestTemplate restTemplate(){
+//        RestTemplate restTemplate = new RestTemplate();
+//        restTemplate.getInterceptors().add(new LoggingClientHttpRequestInterceptor());
+//        return restTemplate;
+//    }
+
 }

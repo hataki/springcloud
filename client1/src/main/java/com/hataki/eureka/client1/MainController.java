@@ -6,6 +6,7 @@ import com.netflix.appinfo.InstanceInfo;
 import com.netflix.discovery.EurekaClient;
 import com.netflix.discovery.converters.Auto;
 import org.apache.commons.lang.builder.ToStringBuilder;
+import org.apache.http.HttpResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.cloud.client.ServiceInstance;
@@ -15,6 +16,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 
+import javax.servlet.http.HttpServletResponse;
+import java.net.URI;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;
@@ -197,6 +200,15 @@ public class MainController {
         return batman.toString();
     }
 
+    @PostMapping("/postLocation")
+    @ResponseBody
+    public String postLocation(HttpServletResponse httpResponse) throws Exception{
+        String url ="http://EurekaProvider/postLocation";
+        Map<String,String> map = Collections.singletonMap("name","WonderWomen");
+        URI location = restTemplate.postForLocation(url,map,Batman.class);
+        httpResponse.sendRedirect(location.toURL().toString());
+        return location.toString();
+    }
 
 
 }

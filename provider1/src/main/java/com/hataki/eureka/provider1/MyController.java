@@ -63,7 +63,6 @@ public class MyController {
 
 
     @PostMapping("/postParam")
-
     public Batman postParam(@RequestBody String name ){
         System.out.println("name:" + name);
         Batman batman = new Batman() ;
@@ -75,4 +74,6 @@ public class MyController {
         return batman;
 
     }
+
+
 }
